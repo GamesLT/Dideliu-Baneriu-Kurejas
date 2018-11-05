@@ -1,0 +1,24 @@
+{
+  "name": "Dideliu-Baneriu-Kurejas.web",
+  "version": "2.0.0",
+  "description": "assets for dideliu baneriu kurejas web",
+  "repository": "git@github.com:GamesLT/Dideliu-Baneriu-Kurejas.web.git",
+  "author": "Raimondas Rimkevičius <github@mekdrop.name>",
+  "license": "UNLICENSE",
+  "private": true,
+  "devDependencies": {
+    "laravel-mix": "^2.1.14"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "downloadjs": "^1.4.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jquery.mousewheel": "^3.1.9",
+    "when": "^3.7.8"
+  },
+  "scripts": {
+    "compile": "node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "yarn compile --watch"
+  }
+}
